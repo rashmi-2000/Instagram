@@ -59,7 +59,7 @@ background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   color: #333;
 }
-/* code {
+code {
   background: #208bfd;
   color: #f9f9f9;
   padding: 0.1em 0.5em;
@@ -76,6 +76,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background-size: cover;
   background-position: center center;
   background-image: url(https://webdevtrick.com/wp-content/uploads/image-placeholder.png);
+  overflow: hidden;
 }
 @media (max-width: 420px) {
   .image-placeholder {
@@ -86,7 +87,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background-position: top left;
     background-attachment: scroll;
   }
-} */
+}
 /* header {
   position: absolute;
   top: 0;
