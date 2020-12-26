@@ -142,6 +142,8 @@ input:focus, input:hover {
   margin: 0 auto;
   padding: 4em 1em;
   max-width: 40em;
+  color: white;
+  text-align: center;
 }
 .result video, .result img {
   width: calc(100% - 4em);
