@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1300" height="499" version="1.1" style=""><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>wave_background</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        
+    <filter id="f204" x="0" y="0" width="1" height="1" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Lightness-Contrast" inkscape:menu="Color" inkscape:menu-tooltip="Increase or decrease lightness and contrast" color-interpolation-filters="sRGB">
+            <feFlood result="result1" flood-opacity="0" flood-color="#808080"/>
+            <feBlend mode="normal" in2="SourceGraphic" result="result2"/>
+            <feComposite k2="1" operator="arithmetic" in2="SourceGraphic"/>
+            <feComposite operator="in" in2="SourceGraphic"/>
+        </filter></defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Ressource" stroke="#ffffff" stroke-width="1" fill="#7f0e79" fill-rule="evenodd" class="selected" fill-opacity="1" stroke-opacity="1" filter="url(#f204)">
+        <g id="wave_background" fill="#7f0e79" fill-opacity="1" stroke="#ffffff" stroke-opacity="1" filter="url(#f204)">
+            <g id="Group-4" fill="#7f0e79" fill-opacity="1" stroke="#ffffff" stroke-opacity="1" filter="url(#f204)">
+                <path d="M0.7874015569686891,-2.362204670906067 L1300.7874015569687,-2.3622046709060953 C1300.6310915569686,96.70364192909393 1300.6310915569686,256.6835283290939 1300.7874015569687,477.57745532909394 C940.1667685569687,519.9264873290939 979.6809085569687,437.3326393290939 650.7874015569687,448.58980932909395 C321.8938945569687,459.8469803290939 307.3769635569687,508.83827932909395 0.7874015569686891,448.58980932909395 C1.787401556968689,325.14613732909396 1.787401556968689,174.82879932909393 0.7874015569686891,-2.362204670906067 z" id="Wave" fill="#7f0e79" opacity="0.15" fill-opacity="1" stroke="#ffffff" stroke-opacity="1" filter="url(#f204)"/>
+                <path d="M1302.7873653388438,-2.362204670906067 L378.08687897884374,-2.362204670906067 L1.788133978843689,-2.362204670906067 C1.788133978843689,221.59873832909392 1.788133978843689,364.48768832909394 1.788133978843689,426.30464532909394 C82.18293397884372,414.38263632909394 155.9744539788437,396.97253432909395 345.50635997884365,414.38263632909394 C535.0382709788437,431.79273932909393 601.9638259788437,501.4273103290939 877.4661449788437,435.4125453290939 C1061.1343579788436,391.4027023290939 1202.9080979788437,394.6410673290939 1302.7873653388438,445.12764032909394 L1302.7873653388438,-2.362204670906067 z" id="Wave" fill="#7f0e79" fill-opacity="1" stroke="#ffffff" stroke-opacity="1" transform="" filter="url(#f204)"/>
+            </g>
+        </g>
+    </g></g></svg>

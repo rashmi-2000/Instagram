@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  
+ 
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <link href="style.css" rel="stylesheet">
+
+
+  <title>Instagram Downloader</title>
+
+<link href="./main.550dcf66.css" rel="stylesheet"></head>
+
+<body> <!-- Add your content of header -->
+  <header>
+    <nav class="navbar-fixed-top">
+    <div class="topnav ">
+     
+      <a class=" activenav">
+        <div>
+        <img src="./assets/images/mashup-icon.svg" class="navbar-logo-img" alt="">
+        Instagram Downloader
+      </div>
+      </a>
+
+      <div id="myLinks">
+      
+        <a href="#" onclick=" myFunction()">Home</a>
+        <a href="#myBtn" onclick=" myFunction()">How to Download</a>
+        <a href="#features" onclick="myFunction()">Features</a>
+          
+        <a href="#about" onclick="myFunction() " >About Us</a>
+      </div>
+    
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-2x" style="color: white;"></i>
+      </a>
+    </div>
+  </nav>
+
+  </header>
+
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Instagram Downloader</h1>
+          
+          <br>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-container">
+  <div class="container">
+    <div class="row">
+    <div class="col-xs-12 col-md-8 col-md-offset-2">
+     <div class="text-center">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- <div class="form-group" style="text-align: center;">
+              
+             
+              <label class="text-weight" ><b>Paste Link Here:</b></label>
+              <div>
+                <input type="text" name="link"  style="display: inline;"  placeholder="Enter Instagram media link" class="form-control link" style="text-align: center;" required>
+              </div>
+              <br>
+              <button class="btn btn-success search"  onclick="getMedia()">Click here to proceed</button>
+              
+              
+            </div> -->
+            <div class="form-group" style="text-align: center;">
+
+              <label class="text-weight" style="color: black;"><b>Paste Link Here:</b></label>
+              <br>
+              <br>
+              <div class="input-group " style="text-align: center;">
+                <input type="txt" name="link" id="youtube-id" placeholder="Enter Instagram video link" style="box-shadow: 0 0 10px rgb(243, 243, 243);"
+                  class="form-control link" required>
+                <span class="input-group-btn" id="bthide">
+                  <button class="btn search btn-block click-btn-down btn-grad1" type="submit" onclick="getMedia()"> Proceed</button>
+                
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div> 
+      <br><br>
+      <button type="button" class="btn btn-grad" id="myBtn">How to Download</button>
+              <br>
+              <br>
+              <p style="color: black;"><b>Confused? Click on the above button and follow the steps.</b></p>
+              
+    </div> 
+      </div>
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+      <div class="modal-content">
+       
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+      
+          </ol>
+        <div class="modal-body">
+          <span class="close">&times;</span>
+        <div class="carousel-inner">
+          <div class="item active">
+            <div style="text-align: center;">
+              <h3 style="color: floralwhite;">Step-1</h3>
+              
+            
+            <img src="./assets/images/s1.PNG" class="centerimg" style="width: 60%;">
+            <br>
+            <p style="color: rgb(0, 0, 0);"><b>Paste the link of your video in the given place.</b></p>
+          </div>
+        </div>
+          <div class="item">
+            <div style="text-align: center;">
+              <h3 style="color: floralwhite;">Step-2</h3>
+            <img src="./assets/images/s2.PNG" class="centerimg" style="width: 60%;">
+            <br>
+      
+            <p style="color: rgb(0, 0, 0);"><b>Click on the PROCEED button.</b></p>
+          </div>
+           
+          </div>
+      
+          <div class="item">
+            <div style="text-align: center;">
+              <h3  style="color: floralwhite;">Step-3</h3>
+            <img src="./assets/images/s3.PNG" class="centerimg" style="width: 80%;">
+            <br>
+      
+            <p  style="color: rgb(0, 0, 0);"> <b>Click on the drop-down arrow & select the format in which you want to download from the drop-down list.</b></p>
+          </div>
+      
+          </div>
+          <div class="item">
+            <div style="text-align: center;">
+              <h3 style="color: floralwhite;">Step-4</h3>
+            <img src="./assets/images/s4.PNG" class="centerimg" style="width: 80%;">
+            <br>
+      
+            <p style="color: rgb(0, 0, 0);"><b>Click on Download button.</b></p>
+          </div>
+            
+          </div>
+          <div class="item">
+            <div style="text-align: center;">
+              <h3 style="color: floralwhite;">Step-5</h3>
+            <img src="./assets/images/s5.PNG" class="centerimg" style="width: 80%;">
+            <br>
+      
+            <p style="color: rgb(0, 0, 0);"> <b>Wait for the download bar to load to 100% and then click on Download Now!</b></p>
+          </div>
+            
+          </div>
+          <br>
+          <br>
+          <br>
+        </div>
+        
+      </div>
+      
+        
+      </div>
+        </div>
+        <!-- <div class="modal-footer">
+          <h3>Modal Footer</h3>
+        </div> -->
+      </div>
+  </div>
+</form> 
+</div>
+</div>
+
+</div>
+</div>
+
+
+              
+                
+  <section class="result">
+     <div class="image-placeholder" ></div><br>
+    <p style="text-align: center; color: #000000;"> Copy image or video link from Instagram and put it on the field given on the top. </p>
+  </section>
+  <a id="abc" href="hello" download> 
+  <img id="456" src="#" style="margin-top: 0px;"> 
+  </a>  
+
+  
+
+
+
+
+  <br>
+  <br>
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+
+  <div class="about-section">
+    <h1 style="color:white;" id=features>Features</h1>
+    <p  style="color: floralwhite;"><em>The online service Instagram Media Downloader is one of the most simple, reliable and secure tools on the internet to download Instagram media. Go to Insta and find the media you want to download. By simply copying and pasting the URL of the desired post in the appropriate box, you can download the media with the press of a button in high resolution.</em>
+   
+  </div>
+ 
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="text-center">
+<div class="content-slider">
+  <div class="slider">
+    <div class="mask">
+      <ul>
+        <li class="anim1">
+          <div ><h2 style="color: #000000; text-align: center;">Cross platform supported</h2>
+            <img
+          src="./assets/images/f1.png" style="width:100%">
+          </div>
+          <br>
+          <div class="source" style="color: rgb(255, 255, 255);"><b>We support all devices & platforms. Easy to convert YouTube videos to MP3 files regardless of whether you
+            are using Windows, Mac or Linux, Android, iPhone.</b></div>
+        </li>
+        <li class="anim2">
+          <div ><h2 style="color: #000000; text-align: center;">Flexible with file formats</h2>
+            <img src="./assets/images/f2.png" style="width:90%">
+          </div>
+          <br>
+
+          <div class="source" style="color: rgb(255, 255, 255);"><b>We support all video and audio formats conversion. You can easily convert YouTube videos to MP3, 3GP,
+            MP4, WMA, M4A, WEBM and MO formats, etc.</b</div>
+        </li>
+        <li class="anim3">
+          <div ><h2 style="color: #000000; text-align: center;">Easily Downloadable</h2>
+            <img src="./assets/images/f3.png" style="width:100%">
+          </div>
+          <br>
+
+          <div class="source" style="color: rgb(255, 255, 255);"><b> All you need to do is to enter the video's url that you wish to convert,
+           select the format then click "download" to start the downloading process.</b></div>
+        </li>
+         <li class="anim4">
+          <div ><h2 style="color: #000000; text-align: center;">Safe to use</h2>
+            <img
+          src="./assets/images/is-youtcom-safe-to-use.jpg" style="width:95%">
+          </div>
+          <br>
+
+          <div class="source" style="color: rgb(255, 255, 255);"><b>YouTube downloader is completely safe to use as we don't collect any data and it's totally anonymous. Your privacy is our first priority.</b></div>
+        </li>
+        <li class="anim5">
+          <div ><h2 style="color: #000000; text-align: center;">Free to use</h2>
+            <img src="./assets/images/intro.jpg" style="width:90%">
+          </div>
+          <br>
+
+          <div class="source" style="color: rgb(255, 255, 255);"><b>YouTube downloader is completely free to use. No registration required. Download and enjoy your audios & videos for FREE!</b></div>
+        </li>
+      
+        
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-8 col-md-offset-2">
+          <div class="text-center">
+            <h2 style="color: rgb(255, 255, 255);" id="about">About Us</h2>
+            <p style="color: rgb(0, 0, 0);">Instagram Downloader is a Free to use website that helps Instagram users download
+              their favorite videos off Instagram and save them for offline viewing by generating direct links to the
+              Instagram video.
+
+              The videos are on Instagram's servers and not ours, we do not save videos on our servers nor do we keep
+              history of downloaded videos. Using Instagram Downloader is totally anonymous and safe.
+              <br>
+              If you have any questions or inquiries (suggestions, bug reports or advertisement proposals) please use
+              the form in the contact page.
+
+              Also, if you love our work, you can share it with your friends.
+            </p>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer-container white-text-container" style="padding-bottom: 10px;">
+    <div class="container">
+      <div class="row">
+
+
+        
+
+
+          
+            <div class="col-xs-12" style="text-align: center;">
+              <p>Have any queries? <a href="./contact.html"><em>Contact Us</em></a>
+               </p>
+              <br>
+                <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                
+              
+            </div>
+          
+
+           
+            
+          
+
+
+        
+      </div>
+    </div>
+<br>
+<br>
+<br>
+
+
+    <p style="text-align: center; color: white; ">&copy; Copyright 2021 Instagram Downloader</p>
+  </footer>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+    scrollRevelation('.reveal');
+  });
+</script>
+
+<script  src="function.js"></script>
+
+ <script type="text/javascript" src="./main.0cf8b554.js"></script>
+ <script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navbarFixedTopAnimation();  
+  });
+</script>
+
+<script>
+
+
+ //var hello= $('#instaImg').val();
+ //console.log(typeoff(hello));
+$('a').attr("href",$('#instaImg').val());
+//$('#456').attr("src",hello);
+
+
+//  $('#instaa').on('click', function(){
+   
+//    $('#instaImg').attr("src");
+    
+//  // document.getElementById("").style.display = "block";
+//   //document.getElementById("").style.display = "block";
+//  });
+</script>
+
+</body>
+
+</html>
+
+
+ <script>
+// $(window).keypress(function(event) {
+//   if (!(event.which == 115 && event.ctrlKey) && !(event.which == 19)) return true;
+//   alert("Ctrl-S pressed");
+//   event.preventDefault();
+//   return false;
+// });
+// </script>
+
+
+ <script>
+//   $(document).keydown(function(event) {
+
+// //19 for Mac Command+S
+// if (!( String.fromCharCode(event.which).toLowerCase() == 's' && event.ctrlKey) && !(event.which == 19)) return true;
+
+// alert("Ctrl-s pressed");
+
+// event.preventDefault();
+// return false;
+// });
+// </script>
+
+<script>
+//   $(document).bind('keydown', function(e) {
+//   if(e.ctrlKey && (e.which == 83)) {
+//     e.preventDefault();
+//     alert("Do you want to download?");
+//     return false;
+//   }
+// });
+// </script>
+ <script>
+//   $("#Save").click(function() {
+//   e = $.Event("keydown");
+//   e.which = 83; // S
+//   e.ctrlKey = true; // CTRL
+//   $(document).trigger(e);
+// });
+// </script>
+
+<script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on the button, open the modal 
+    btn.onclick = function () {
+      modal.style.display = "block";
+    }
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
